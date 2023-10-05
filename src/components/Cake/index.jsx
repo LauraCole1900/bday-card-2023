@@ -7,11 +7,13 @@ const Cake = () => {
   const flameRef1 = useRef();
   const flameRef2 = useRef();
   const flameRef3 = useRef();
+  const textRef = useRef();
 
-  const toggleCandle = () => {
+  const toggleFlame = () => {
     flameRef1.current.classList.toggle("snuffed");
     flameRef2.current.classList.toggle("snuffed");
     flameRef3.current.classList.toggle("snuffed");
+    textRef.current.classList.toggle("textUp");
   };
 
   return (
@@ -22,10 +24,10 @@ const Cake = () => {
         <div className="top"></div>
       </div>
       <div className="candles">
-        <div className="flame" ref={flameRef1} onClick={toggleCandle}></div>
-        <div className="flame2" ref={flameRef2} onClick={toggleCandle}></div>
-        <div className="flame3" ref={flameRef3} onClick={toggleCandle}></div>
-        <div className="text">Happy Birthday!</div>
+        <div className="flame" ref={flameRef1} onClick={toggleFlame}></div>
+        <div className="flame2" ref={flameRef2} onClick={toggleFlame}></div>
+        <div className="flame3" ref={flameRef3} onClick={toggleFlame}></div>
+        <div className="text" ref={textRef}>Happy Birthday!</div>
         <div className="shadows"></div>
       </div>
       <p className="text2">*click on the flames to blow out the candles</p>

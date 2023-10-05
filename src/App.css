@@ -1,5 +1,4 @@
 #root {
-  width: 100vw;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -10,4 +9,9 @@
 body {
   background-color: var(--charcoal);
   color: var(--cream);
+  width: 100%;
+}
+
+.container {
+  width: 100vw;
 }

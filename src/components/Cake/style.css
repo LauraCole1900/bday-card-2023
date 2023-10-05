@@ -10,6 +10,8 @@ body {
   position: relative;
   top: 50px;
   left: 0;
+  display: flex;
+  justify-content: center;
 }
 
 #birthday-cake:before {
@@ -118,7 +120,7 @@ body {
   height: 80px;
   background-color: #0081a7;
   top: -160px;
-  left: 49%;
+  left: -15px;
   box-shadow: 50px 20px #0081a7, -50px 20px #0081a7;
 }
 
@@ -246,25 +248,30 @@ body {
   }
 }
 
-.text, .text2 {
+.text,
+.text2 {
   position: absolute;
   color: white;
-  font-family: 'Brush Script MT', cursive;
+  font-family: "Brush Script MT", cursive;
   text-align: center;
 }
 .text {
-  width:350px;
+  width: 350px;
   font-size: 50px;
-  left:-140px;
-  top:100px;
-  z-index:-1;
-  transition: .3s;
-  opacity:0;
+  left: -160px;
+  top: 100px;
+  z-index: -1;
+  transition: 0.3s;
+  opacity: 0;
 }
 
 .text2 {
   font-size: 25px;
   width: 300px;
-  top:105px;
-  left:-140px;
+  top: 105px;
+}
+
+.textUp {
+  top: -90px;
+  opacity: 1
 }
