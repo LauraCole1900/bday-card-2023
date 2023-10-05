@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import "./style.css";
 
 const VideoEmbed = () => {
@@ -16,10 +15,6 @@ const VideoEmbed = () => {
       />
     </div>
   )
-};
-
-VideoEmbed.propTypes = {
-  src: PropTypes.string.isRequired
 };
 
 export default VideoEmbed;
