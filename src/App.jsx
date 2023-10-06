@@ -6,7 +6,7 @@ import Cake from './components/Cake';
 import './App.css';
 
 export default function App() {
-  return(
+  return (
     <>
       <Container>
         <Row>
@@ -14,7 +14,11 @@ export default function App() {
             <h1>Happy birthday!</h1>
           </Col>
         </Row>
-        <Cake />
+        <Row>
+          <Container className="cake-box">
+            <Cake />
+          </Container>
+        </Row>
         <VideoEmbed />
       </Container>
       <Confetti />
