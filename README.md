@@ -8,7 +8,6 @@
 - [Installation Instructions](#installation-instructions)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Tests](#tests)
 - [Credits](#credits)
 - [Contributing](#contributing)
 - [Questions](#questions)
@@ -20,12 +19,12 @@ This is a simple little React-based "Happy Birthday" e-card.
 
 ## Links
 
-[Deployed application on GitHub Pages](https://lauracole1900.github.io/bday-card-2023/) NOT DEPLOYED YET
+[Deployed application on GitHub Pages](https://lauracole1900.github.io/bday-card-2023/)
 
 ## Screenshot
 
 Happy Birthday:
-![Happy birthday]()
+![Happy birthday](./images/happy-bday-2023.png)
 
 ## Installation Instructions
 
@@ -37,15 +36,11 @@ This project is intended to be used to send "happy birthday" greetings.
 
 ## Technologies Used
 
-[![Node.js](https://img.shields.io/badge/built%20with-Node.js-3c873a)](https://nodejs.org/en/) [![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/) [![React-Bootstrap](https://img.shields.io/badge/built%20with-React%20Bootstrap-61dbfb)](https://react-bootstrap.github.io/) [![React-confetti](https://img.shields.io/badge/built%20with-React%20Confetti-cc3534)](https://www.npmjs.com/package/react-confetti)
-
-## Tests
-
-npm run test
+[[![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/) [![React-Bootstrap](https://img.shields.io/badge/built%20with-React%20Bootstrap-61dbfb)](https://react-bootstrap.github.io/) [![React-confetti](https://img.shields.io/badge/built%20with-React%20Confetti-cc3534)](https://www.npmjs.com/package/react-confetti)
 
 ## Credits
 
-Coming as I build the project
+Animated cake and candles code from [Lena Design](https://lenadesign.org/2022/06/06/3d-css-birthday-cake-and-candles-animation/)
 
 ## Contributing
 
