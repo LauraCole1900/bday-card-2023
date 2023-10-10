@@ -8,17 +8,18 @@ body {
 
 #birthday-cake {
   position: relative;
-  top: 250px;
+  top: 300px;
   left: 0;
   display: flex;
   justify-content: center;
+  max-width: 90vw;
 }
 
 #birthday-cake:before {
   content: "";
   position: absolute;
   background-color: #ede0d4;
-  width: 400px;
+  width: 98vw;
   height: 140px;
   border-radius: 50%;
   left: 50%;
@@ -31,7 +32,7 @@ body {
   position: absolute;
   left: 50%;
   background-color: #ddb892;
-  width: 350px;
+  width: 90vw;
   height: 130px;
   transform: translate(-50%, -60%);
 }
@@ -47,7 +48,7 @@ body {
 .middle,
 .middle:before {
   border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
-  width: 350px;
+  width: 90vw;
   height: 50px;
 }
 
@@ -58,7 +59,7 @@ body {
 
 .cake:after {
   background-color: #b08968;
-  width: 350px;
+  width: 90vw;
   height: 30px;
   top: 50px;
 }
@@ -81,7 +82,7 @@ body {
 .top {
   position: absolute;
   background-color: #7f5539;
-  width: 350px;
+  width: 90vw;
   height: 90px;
   border-radius: 50%;
   z-index: 2;
@@ -97,10 +98,10 @@ body {
   top: 0;
   z-index: 1;
   border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
-  box-shadow: 49px 20px #7f5539, 98px 25px #7f5539, 147px 30px #7f5539,
-    196px 25px #7f5539, 245px 20px #7f5539, 295px 0 #7f5539, 0px 4px #fff,
-    49px 24px #fff, 98px 29px #fff, 147px 34px #fff, 196px 29px #fff,
-    245px 24px #fff, 295px 4px #fff;
+  box-shadow: 45px 20px #7f5539, 94px 25px #7f5539, 142px 30px #7f5539,
+    190px 25px #7f5539, 238px 20px #7f5539, 282px 0 #7f5539, 0px 4px #fff,
+    45px 24px #fff, 94px 29px #fff, 142px 34px #fff, 190px 29px #fff,
+    238px 24px #fff, 282px 4px #fff;
 }
 
 .chocs:before {
