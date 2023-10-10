@@ -8,7 +8,7 @@ body {
 
 #birthday-cake {
   position: relative;
-  top: 50px;
+  top: 250px;
   left: 0;
   display: flex;
   justify-content: center;
@@ -119,8 +119,7 @@ body {
   width: 30px;
   height: 80px;
   background-color: #0081a7;
-  top: -160px;
-  left: -15px;
+  bottom: 90px;
   box-shadow: 50px 20px #0081a7, -50px 20px #0081a7;
 }
 
@@ -272,6 +271,6 @@ body {
 }
 
 .textUp {
-  top: -90px;
+  top: -170px;
   opacity: 1
 }
