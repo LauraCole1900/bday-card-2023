@@ -12,7 +12,6 @@ body {
   left: 0;
   display: flex;
   justify-content: center;
-  max-width: 90vw;
 }
 
 #birthday-cake:before {
@@ -20,6 +19,7 @@ body {
   position: absolute;
   background-color: #ede0d4;
   width: 98vw;
+  max-width: 400px;
   height: 140px;
   border-radius: 50%;
   left: 50%;
@@ -33,6 +33,7 @@ body {
   left: 50%;
   background-color: #ddb892;
   width: 90vw;
+  max-width: 339px;
   height: 130px;
   transform: translate(-50%, -60%);
 }
@@ -49,6 +50,7 @@ body {
 .middle:before {
   border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
   width: 90vw;
+  max-width: 339px;
   height: 50px;
 }
 
@@ -60,6 +62,7 @@ body {
 .cake:after {
   background-color: #b08968;
   width: 90vw;
+  max-width: 339px;
   height: 30px;
   top: 50px;
 }
@@ -83,6 +86,7 @@ body {
   position: absolute;
   background-color: #7f5539;
   width: 90vw;
+  max-width: 339px;
   height: 90px;
   border-radius: 50%;
   z-index: 2;
@@ -107,7 +111,7 @@ body {
 .chocs:before {
   content: "";
   position: absolute;
-  width: 175px;
+  width: 165px;
   height: 180px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 100% 0% 100% 0% / 0% 72% 28% 100%;
@@ -252,7 +256,7 @@ body {
 .text2 {
   position: absolute;
   color: white;
-  font-family: "Brush Script MT", cursive;
+  font-family: brush, cursive;
   text-align: center;
 }
 .text {
@@ -268,10 +272,10 @@ body {
 .text2 {
   font-size: 25px;
   width: 300px;
-  top: 105px;
+  top: 125px;
 }
 
 .textUp {
-  top: -170px;
+  top: -100px;
   opacity: 1
 }
